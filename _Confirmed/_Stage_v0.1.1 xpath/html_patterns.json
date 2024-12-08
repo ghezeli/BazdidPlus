@@ -1,0 +1,33 @@
+{
+  "websites": [
+    {
+      "site_id": "namnak",
+      "patterns": {
+        "title": {
+          "xpath": "//div/div/main/div[2]/div[1]/div[2]/h2/a",
+          "attribute": "text"
+        },
+        "url": {
+          "xpath": "//div/div/main/div[2]/div[1]/div[2]/h2/a",
+          "attribute": "href"
+        },
+        "summery": {
+          "xpath": "//div/div/main/div[2]/div[1]/div[2]/div[1]/p",
+          "attribute": "text"
+        },
+        "content": {
+          "xpath": "//div[@id='wrapper-post-content']",
+          "attribute": "html"
+        },
+        "date": {
+          "xpath": "//div/div/main/div[2]/div[1]/div[2]/div[2]/div[1]/span",
+          "attribute": "text"
+        },
+        "image": {
+          "xpath": "//img[contains(@class, 'img-responsive')]/@src\n",
+          "attribute": "src"
+        }
+      }
+    }
+  ]
+}

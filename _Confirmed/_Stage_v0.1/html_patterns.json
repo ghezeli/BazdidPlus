@@ -1,0 +1,33 @@
+{
+  "websites": [
+    {
+      "site_id": "namnak",
+      "patterns": {
+        "title": {
+          "selector": "#main-wrapper > div > div > main > div.first-post.bg-white.border-t.border-t-green-900.relative > div.p-4.flex.flex-col.sm\\:flex-row.gap-4 > div.w-full.space-y-4 > h2 > a",
+          "attribute": "text"
+        },
+        "url": {
+          "selector": "#main-wrapper > div > div > main > div.first-post.bg-white.border-t.border-t-green-900.relative > div.p-4.flex.flex-col.sm\\:flex-row.gap-4 > div.w-full.space-y-4 > h2 > a",
+          "attribute": "href"
+        },
+        "summery": {
+          "selector": "#main-wrapper > div > div > main > div.first-post.bg-white.border-t.border-t-green-900.relative > div.p-4.flex.flex-col.sm\\:flex-row.gap-4 > div.w-full.space-y-4 > div.bg-body.border-t-2.border-t-green-100.p-4 > p",
+          "attribute": "text"
+        },
+        "content": {
+          "selector": "#wrapper-post-content",
+          "attribute": "html"
+        },
+        "date": {
+          "selector": "#main-wrapper > div > div > main > div.first-post.bg-white.border-t.border-t-green-900.relative > div.p-4.flex.flex-col.sm\\:flex-row.gap-4 > div.w-full.space-y-4 > div.meta.text-sm.text-gray.flex.flex-col.sm\\:flex-row.gap-3 > div:nth-child(1) > span",
+          "attribute": "text"
+        },
+        "image": {
+          "selector": "#main-wrapper > div > div > main > article > header > div > div.sm\\:min-w-\\[300px\\].sm\\:w-\\[300px\\].rounded > img",
+          "attribute": "img"
+        }
+      }
+    }
+  ]
+}
