@@ -76,6 +76,18 @@
           "name": "image",
           "source": "linked_page",
           "type": "image"
+        },
+        {
+          "_comment": "تصاویر کوچک مرتبط با مطلب که باید از صفحه مرتبط استخراج شوند",
+          "name": "thumbnail",
+          "source": "linked_page",
+          "type": "image"
+        },
+        {
+          "_comment": "تاریخ مربوط به مطالب برای استخراج",
+          "name": "date",
+          "source": "list",
+          "type": "text"
         }
       ]
     }
